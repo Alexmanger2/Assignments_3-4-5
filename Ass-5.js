@@ -49,6 +49,7 @@ var rowAdder = document.querySelector(".row");
 rowAdder.onclick = function addRow() {
     //create table row
     let row = document.createElement("tr");
+    //for loop to keep track of rows
     for (let i = 0; i < columnNumber; i++) {
         //create columns for row
         let column = document.createElement("td");
