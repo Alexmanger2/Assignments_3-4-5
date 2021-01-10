@@ -1,0 +1,24 @@
+    
+body{
+  background-color: darkslategray;
+}
+
+.form-group, .submit{
+  color:darkturquoise;
+  text-align: center;
+}
+
+ .text {
+   display: inline-block;
+ }
+
+ h1{
+   color:white;
+   text-align: center;
+ }
+ 
+.both-buttons,.secondForm {
+  text-align: center;
+
+}
+

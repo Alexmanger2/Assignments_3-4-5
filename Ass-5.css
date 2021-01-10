@@ -1,0 +1,32 @@
+
+  table {
+    border: black solid;
+    width: 100%;
+}
+
+.buttons{
+    text-align:center;
+}
+
+.selection{
+  text-align:center;
+  padding-top:20px;
+}
+
+
+tr {
+  height: 30px;
+}
+
+.uncolored {
+  background-color: gray;
+  
+}
+
+.row,.column {
+  background-color:limegreen;
+}
+
+.rowRemove, .columnRemove{
+  background-color:red;
+}

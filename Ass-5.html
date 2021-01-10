@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="index3.css">
+
+   
+    <title>Assignment 5</title>
+</head>
+<body>
+    
+
+<div class="buttons">
+    
+    <button type="button" class="row">Add Row</button>
+    <button type="button" class="rowRemove">Remove Row</button>
+    <button type="button" class="column">Add Column</button>
+    <button type="button" class="columnRemove">Remove Column</button>
+
+<br><br>
+
+    <button class="fill-un">Fill All Uncolored</button>
+    <button class="fill-all">Fill All</button>
+    <button class="clear">Clear All</button>
+  
+
+</div>
+    
+
+    <div class="selection">
+       
+            <label>Choose a color</label>
+            <select id="color-select" onchange="setCurrentColor(this.value)">
+                <option value="orange">Orange</option>
+                <option value="red">Red</option>
+                <option value="cyan">Cyan</option>
+                <option value="Purple">Purple</option>
+            </select>
+   
+    </div>
+
+    <br>
+    <br>
+
+    <table>
+        <tbody id="grid">
+            <!--First row -->
+            <tr>
+                <td id="placeholder"></td>  <!-- columns  -->
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="index3.js"></script>
+</body>
+
+
+
