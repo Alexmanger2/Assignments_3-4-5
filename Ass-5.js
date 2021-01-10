@@ -92,6 +92,7 @@ columnAdder.onclick = function addColumn() {
         gridProps(column);
         row.appendChild(column);
     });
+    //increase column
     columnNumber++;
 }
 
