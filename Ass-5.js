@@ -71,6 +71,7 @@ rowRemover.onclick = function removeRow() {
     let row = insideGrid.lastChild;
     //remove the row
     insideGrid.removeChild(row);
+    //decrease row
     rowNumber--;
 }
 
