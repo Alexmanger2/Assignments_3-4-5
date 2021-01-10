@@ -111,6 +111,7 @@ columnRemover.onclick = function removeColumn() {
         let column = row.lastChild;
         row.removeChild(column);
     });
+    //decrease column
     columnNumber--;
 }
 
