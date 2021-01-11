@@ -65,7 +65,11 @@ rowAdder.onclick = function addRow() {
 //#2 add columns to the grid
 //select remove row button
 rowRemover = document.querySelector(".rowRemove");
+<<<<<<< HEAD
 //when clicked remove row
+=======
+//when button clicked remove row 
+>>>>>>> issue1
 rowRemover.onclick = function removeRow() {
     // select last row
     let row = insideGrid.lastChild;
