@@ -100,7 +100,7 @@ columnAdder.onclick = function addColumn() {
 
 //select remove button
 columnRemover = document.querySelector(".columnRemove");
-// when clicked
+// when clicked remove column
 columnRemover.onclick = function removeColumn() {
     //get each row
     let rows = document.getElementsByTagName("tr");
