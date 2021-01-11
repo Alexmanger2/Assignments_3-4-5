@@ -11,8 +11,14 @@
 //3) Select all of the list items with a class of "second".
 
 //let q3 = document.querySelectorAll('.second').forEach(function(a){
-   // console.log(a)
+    //console.log(a)
 //})
+//print out nodes in list loop through the list
+
+//this is better for q3 /*
+//let q3 = document.querySelectorAll(".second").forEach( 
+   //element => console.log(element));
+
 //print out nodes in list loop through the list
 
 //4) Select a list item with a class of third, but only the list item inside of the ol tag.
